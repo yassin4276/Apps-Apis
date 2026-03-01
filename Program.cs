@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddHealthChecks()
     .AddDbContextCheck<AppDbContext>();
 
-Console.WriteLine(builder.Configuration.GetConnectionString("TestingConnection"));
+
 
 var app = builder.Build();
 
