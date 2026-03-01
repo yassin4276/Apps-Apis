@@ -69,3 +69,6 @@ secrets.json
 
 *.mdf
 *.ldf
+
+.gitignore
+.dockerignore
