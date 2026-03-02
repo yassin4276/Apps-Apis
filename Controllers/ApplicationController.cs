@@ -103,4 +103,10 @@ public class ApplicationController : ControllerBase
 
         return Ok(ApiResponse<object?>.Ok(default, "Application deleted successfully"));
     }
+
+    [HttpGet("Test CI/CD Pipeline")]
+    public IActionResult TestCI()
+    {
+        return Ok(ApiResponse<string>.Ok("CI/CD Pipeline test successful"));
+    }
 }
